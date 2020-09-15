@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package nested_tutorial;
+
+message Food {
+  required string name = 1;
+  required int32 calories = 2;
+}
